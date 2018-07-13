@@ -1,8 +1,9 @@
 FROM java:8
+FROM nginx
 
-ENV PORT 8080
+ENV PORT 9080	
 
-EXPOSE 8080
+EXPOSE 9080
 
 RUN mkdir /app
 
