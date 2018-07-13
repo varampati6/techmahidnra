@@ -1,4 +1,5 @@
 FROM java:8
+FROM nginx
 
 ENV PORT 9080	
 
