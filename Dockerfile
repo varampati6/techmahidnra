@@ -4,8 +4,8 @@ ENV PORT 9080
 
 EXPOSE 9080
 
-RUN chgrp -R 0 /opt/tomcat/webapps
-RUN chmod -R g+rwX /opt/tomcat/webapps
+#RUN chgrp -R 0 /opt/tomcat/webapps
+#RUN chmod -R g+rwX /opt/tomcat/webapps
 
 RUN mkdir /app
 
